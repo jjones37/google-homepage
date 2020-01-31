@@ -1,13 +1,19 @@
-body{
+body {
     background-size: auto;
     height: auto;
 }
 
-#midlogo{
-    padding-top: 20%;
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#search{
+#midlogo {
+    padding-top: 109px;
+}
+
+#search {
     background: transparent;
     display: flex;
     border-radius: 8px;
@@ -20,29 +26,29 @@ body{
     width: 482px;
 }
 
-#searchi{
+#searchi {
     margin-left: 10px;
     margin-top: 7.5px;
-    font-family: "Trebuchet MS", Arial, Verdana;   
+    font-family: "Trebuchet MS", Arial, Verdana;
     background: white url(searchicon.png) 0px 5px no-repeat;
     background-size: 100%;
     border: none;
-    text-shadow: 1px 1px #fff;      
+    text-shadow: 1px 1px #fff;
 }
 
-#searchibox{
+#searchibox {
     display: flex;
     width: 40px;
 }
 
-input[type="text"]{
+input[type="text"] {
     background-color: transparent;
     border: none;
     margin-left: 5px;
     margin-top: 5px;
     margin-right: 5px;
     padding: 0;
-    color: rgba(0,0,0,.87);
+    color: rgba(0, 0, 0, .87);
     word-wrap: break-word;
     outline: none;
     display: flex;
@@ -51,4 +57,29 @@ input[type="text"]{
     font-size: 16px;
 }
 
+#buttons {
+    padding-top: 18px;
+    display: flex;
+    z-index: 3;
+    width: 487px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
 
+input[type="submit"] {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
